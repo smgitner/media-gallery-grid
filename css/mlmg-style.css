@@ -1,0 +1,24 @@
+.mlmg-gallery {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mlmg-content {
+    margin-bottom: 20px;
+}
+
+.mlmg-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+}
+
+.mlmg-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#mlmg-category-filter {
+    margin-bottom: 20px;
+}
